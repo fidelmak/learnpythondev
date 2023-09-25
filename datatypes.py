@@ -43,5 +43,45 @@ print(d)
 # to print the range of numbers we can pass it to a list 
 print(list(d))
 
+even = range(2,10,2)# this prints the range of even numbers from 2-8
+print(list(even))
+# all this comes under sequence 
+# lets talk about mapping which is also dictionary
+dic ={
+    "paul": "samsumg",
+    "tunde": "iphone",
+    "seyi": "tecno",
+
+}
+
+print(dic)
+# to print the keys 
+
+print(dic.keys())
+# to print the values 
+
+print(dic.values())
+
+# to get a particular values 
+print(dic["paul"])
+print(dic.get("tunde"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
